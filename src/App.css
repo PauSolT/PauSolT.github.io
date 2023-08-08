@@ -1,0 +1,37 @@
+.App {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+header {
+  background-color: #22478f;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1%;
+}
+
+#headerName {
+  flex-grow:  4;
+  align-self: flex-start;
+}
+
+#headerOptions {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  flex-grow:  1;
+}
+
+body {
+  background-color: #30945a;
+  margin: ;
+}
+footer {
+  background-color: #687329;
+  padding: 1%;
+}
+
