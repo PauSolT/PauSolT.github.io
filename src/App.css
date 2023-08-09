@@ -5,31 +5,25 @@
   flex-direction: column;
 }
 
-header {
-  background-color: #22478f;
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  align-items: center;
-  padding: 1%;
+h1 {
+  font-size:clamp(1rem, 5.5vw, 5rem);
 }
 
-#headerName {
-  flex-grow:  4;
-  align-self: flex-start;
+h2 {
+  font-size:clamp(1rem, 4vw, 4rem);
 }
 
-#headerOptions {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-around;
-  flex-grow:  1;
+h3 {
+  font-weight: normal;
 }
 
 body {
   background-color: #30945a;
-  margin: ;
 }
+.bodyDiv {
+  padding-left: 1%;
+}
+
 footer {
   background-color: #687329;
   padding: 1%;
