@@ -1,0 +1,24 @@
+.footerOptions {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footerSocials {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: clamp(1rem, 1.5vw, 2rem);;
+}
+
+footer {
+    background-color: #687329;
+    padding: 1%;
+    font-weight: 500;
+}
+
+footer a{
+    text-decoration: none;
+    color: black;
+}

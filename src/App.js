@@ -1,6 +1,7 @@
 import './App.css';
-import Project from './Project';
-import Header from './Header';
+import Project from './Modules/Project';
+import Header from './Modules/Header';
+import Footer from './Modules/Footer';
 
 function App() {
   return (
@@ -18,7 +19,7 @@ function App() {
         </div>
         <div className='projectList'>
           <div>
-            <h2>PROJECTS</h2>
+            <h1>PROJECTS</h1>
           </div>
           <Project title='1. BEKKUS'
           genre='3D ADVENTURE GAME'
@@ -44,9 +45,7 @@ function App() {
         </div>
         </div>
       </body>
-      <footer>
-        footer  
-      </footer>
+      <Footer />
     </div>
   );
 }

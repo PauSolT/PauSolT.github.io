@@ -1,6 +1,6 @@
 import './Header.css';
 
-function Header({title, genre, description, urlImage}){
+function Header(){
     return (
     <header>
         <div className="headerName">
