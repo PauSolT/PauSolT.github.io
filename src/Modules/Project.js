@@ -1,4 +1,4 @@
-import './Project.css';
+import "../Styles/Project.css"
 
 function Project({title, genre, description, urlImage}){
     return (

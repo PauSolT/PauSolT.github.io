@@ -4,7 +4,7 @@ header {
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    padding: 2.5%;
+    padding: 1.5%;
     font-size: clamp(1rem, 1.5vw, 2rem);
     font-weight: bold;
     position: sticky;
