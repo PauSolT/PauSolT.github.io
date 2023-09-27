@@ -1,25 +1,30 @@
 header {
-    background-color: #22478f;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
-    padding: 1.5%;
-    font-size: clamp(1rem, 1.5vw, 2rem);
-    font-weight: bold;
-    position: sticky;
-    top: 0;
-   }
+  background-color: #22478f;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1.5%;
+  font-size: clamp(1rem, 1.5vw, 2rem);
+  font-weight: bold;
+  position: sticky;
+  top: 0;
+}
+
+.headerName {
+  flex-grow: 4;
+  align-self: flex-start;
+}
+
+nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  flex-grow: 1;
   
-  .headerName {
-    flex-grow:  4;
-    align-self: flex-start;
-  }
-  
-  .headerOptions {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    flex-grow:  1;
-  }
-  
+}
+
+nav a {
+  text-decoration: none;
+  color: black;
+}

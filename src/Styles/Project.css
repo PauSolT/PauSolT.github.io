@@ -8,16 +8,17 @@ h4{
 
 p {
     font-size:clamp(1rem, 1vw, 2rem);
+    max-width: 50%;
 }
 
 .responsiveImage {
     width: clamp(20%, 50%, 75%);
     height: auto;
 }
-
+/* 
 .project img {
     display: block;
   margin-left: auto;
   margin-right: auto;
   width: 50%;
-}
+} */
