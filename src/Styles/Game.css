@@ -1,0 +1,29 @@
+.game {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    max-width: 100%;
+    padding-left: 10%;
+    padding: 3%;
+}
+
+.game .responsiveImage {
+    width: clamp(50%, 80%, 90%);
+    height: auto;
+}
+
+.gameHeader {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-right: 20%;
+}
+
+.gameHeader a {
+    text-decoration: none;
+    color: black;
+    border-style: solid;
+    border-width: medium;
+    border-radius: 10px;
+    border-color: rgb(59, 203, 182);
+}

@@ -1,17 +1,17 @@
-h3{
+.project h3{
     font-size:clamp(1rem, 2.5vw, 3rem);
 }
 
-h4{
+.project h4{
     font-size:clamp(1rem, 2vw, 2rem);
 }
 
-p {
+.project p {
     font-size:clamp(1rem, 1vw, 2rem);
     max-width: 50%;
 }
 
-.responsiveImage {
+.project .responsiveImage {
     width: clamp(20%, 50%, 75%);
     height: auto;
 }
