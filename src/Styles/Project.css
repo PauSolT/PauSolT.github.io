@@ -8,11 +8,11 @@
 
 .project p {
     font-size:clamp(1rem, 1vw, 2rem);
-    max-width: 50%;
+    max-width: 70%;
 }
 
 .project .responsiveImage {
-    width: clamp(20%, 50%, 75%);
+    width: clamp(20%, 70%, 75%);
     height: auto;
 }
 /* 
