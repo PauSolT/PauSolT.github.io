@@ -8,9 +8,9 @@ function Header() {
     <header>
       <div className="headerName">PAU SOLÉ TORRALBA</div>
       {isMobile ? (
-        <div class="dropdown">
-          <button class="dropbtn">MENU</button>
-          <div class="dropdown-content">
+        <div className="dropdown">
+          <button className="dropbtn">MENU</button>
+          <div className="dropdown-content">
             <Link to="/">HOME</Link>
             <Link to="/games">GAMES</Link>
             <Link to="/">ABOUT</Link>

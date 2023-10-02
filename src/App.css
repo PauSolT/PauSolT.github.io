@@ -1,20 +1,23 @@
 .App {
-  background-color: #5971a1;
+  background-color: #0B0C10;
   min-height: 100vh;
-  display: flex;
-  flex-direction: column;
 }
 
 h1 {
   font-size:clamp(1rem, 5.5vw, 5rem);
+  color: #66FCF1;
 }
 
 h2 {
   font-size:clamp(1rem, 4vw, 4rem);
+  color: #66FCF1;
 }
 
 h3 {
   font-weight: normal;
+  color: #45A29E;
+  text-align: justify;
+  text-justify: inter-word;
 }
 
 

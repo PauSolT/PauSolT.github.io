@@ -5,9 +5,6 @@ function Footer(){
     <footer>
         <div className="footerOptions">
           <div>
-            GAMES
-          </div>
-          <div>
             ABOUT
           </div>
           <div className='footerSocials'>

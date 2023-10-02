@@ -1,5 +1,18 @@
-.GamesList{
+.GamesList {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
+
 }
 
+@media only screen and (hover: none) and (pointer: coarse) {
+
+    .GamesList {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        max-width: 90%;
+        margin: 0 auto;
+
+    }
+
+}

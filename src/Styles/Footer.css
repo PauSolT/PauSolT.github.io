@@ -13,12 +13,13 @@
 }
 
 footer {
-    background-color: #687329;
+    background-color: #1F2833;
     padding: 1%;
     font-weight: 500;
+    color: #C5C6C7;
 }
 
 footer a{
     text-decoration: none;
-    color: black;
+    color: #C5C6C7;
 }

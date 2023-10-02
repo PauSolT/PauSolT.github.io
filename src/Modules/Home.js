@@ -9,7 +9,13 @@ function Home() {
           <h1>DEVELOPER</h1>
         </div>
         <div className="introductionDescription">
-          <h3>introduction text</h3>
+          <h3>
+            Versatile video game programmer, with the ability to adapt to
+            technological changes and eager to continue learning. I have the
+            ability to focus completely on what concerns my work and I am used
+            to working in teams. I consider myself an effective person who is
+            committed to his work.
+          </h3>
         </div>
       </div>
       <div className="projectList">

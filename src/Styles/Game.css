@@ -3,8 +3,8 @@
     flex-direction: column;
     justify-content: space-between;
     max-width: 100%;
-    padding-left: 10%;
-    padding: 3%;
+    padding-left: 7%;
+    padding-right: 7%;
 }
 
 .game .responsiveImage {

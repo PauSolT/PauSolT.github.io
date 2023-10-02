@@ -1,24 +1,31 @@
-.project h3{
-    font-size:clamp(1rem, 2.5vw, 3rem);
+.project {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
-.project h4{
-    font-size:clamp(1rem, 2vw, 2rem);
+.project h3 {
+    font-size: clamp(1rem, 2.5vw, 3rem);
+    font-style: italic;
+    font-weight: bold;
+    color: #45A29E;
+}
+
+.project h4 {
+    font-size: clamp(1rem, 2vw, 2rem);
+    color: #45A29E;
 }
 
 .project p {
-    font-size:clamp(1rem, 1vw, 2rem);
-    max-width: 70%;
+    font-size: clamp(1rem, 1vw, 2rem);
+    color: #C5C6C7;
+    text-align: justify;
+    text-justify: inter-word;
 }
 
 .project .responsiveImage {
     width: clamp(20%, 70%, 75%);
     height: auto;
 }
-/* 
-.project img {
-    display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 50%;
-} */
+
