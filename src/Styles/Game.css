@@ -5,6 +5,7 @@
     max-width: 100%;
     padding-left: 7%;
     padding-right: 7%;
+    margin-bottom: 10%;
 }
 
 .game .responsiveImage {
@@ -12,18 +13,36 @@
     height: auto;
 }
 
+.game h3 {
+    color: #66FCF1;
+    font-size: clamp(1.5rem, 3vw, 4rem);
+}
+
+.game h4 {
+    color: #45A29E;
+    margin-bottom: 0px;
+}
+.game p {
+    color: #C5C6C7;
+    text-align: justify;
+    text-justify: inter-word;
+}
+
 .gameHeader {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    padding-right: 20%;
+    /* padding-right: 20%; */
 }
 
 .gameHeader a {
     text-decoration: none;
-    color: black;
+    color: #45A29E;
     border-style: solid;
     border-width: medium;
     border-radius: 10px;
-    border-color: rgb(59, 203, 182);
+    border-color: #45A29E;
+    background-color: #1F2833;
+    /* padding-right: 5%; */
+    /* padding-left: 5%; */
 }
