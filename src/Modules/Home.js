@@ -19,7 +19,7 @@ function Home() {
         </div>
       </div>
       <div className="projectList">
-        <div>
+        <div className="projectListTitle">
           <h1>PROJECTS</h1>
         </div>
         <Project

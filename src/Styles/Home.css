@@ -1,9 +1,21 @@
 .bodyDiv {
-    max-width: 70%;
-    margin: 0 auto;
-  }
+  max-width: 70%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
 
+.introductionTitle {
+  display: flex;
+  justify-content: center;
+}
+
+.projectListTitle {
+  display: flex;
+  justify-content: center;
+}
 
 h3 {
-    font-size:clamp(1rem, 2.5vw, 3rem);
+  font-size: clamp(1rem, 2.5vw, 3rem);
 }

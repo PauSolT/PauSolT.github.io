@@ -43,6 +43,6 @@
     border-radius: 10px;
     border-color: #45A29E;
     background-color: #1F2833;
-    /* padding-right: 5%; */
-    /* padding-left: 5%; */
+    padding-right: 5px;
+    padding-left: 5px;
 }
