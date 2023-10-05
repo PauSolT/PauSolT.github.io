@@ -1,0 +1,88 @@
+.aboutPage {
+    max-width: 70%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #C5C6C7;
+}
+
+.aboutPage h1 {
+    text-align: justify;
+    text-justify: inter-word;
+    font-size: clamp(1.5rem, 3.5vw, 4rem);
+}
+
+.aboutPage h2 {
+    text-align: justify;
+    text-justify: inter-word;
+    font-size: clamp(1.15rem, 3vw, 4rem);
+}
+
+.aboutPage h3 {
+    font-size: clamp(1.65rem, 2.5vw, 3.5rem);
+}
+
+.aboutPage h4 {
+    /* text-align: justify;
+    text-justify: inter-word; */
+    font-size: clamp(1.25rem, 2vw, 3rem);
+}
+
+.aboutPage h5{
+    font-size: clamp(1rem, 2.5vw, 2.5rem);
+
+}
+.aboutPage p {
+    /* text-align: justify;
+    text-justify: inter-word; */
+    font-size: clamp(1rem, 2vw, 2rem);
+}
+
+.aboutPage li {
+    /* text-align: justify;
+    text-justify: inter-word; */
+    font-size: clamp(1rem, 2vw, 2rem);
+}
+
+
+.formation {
+    border-top: 6px solid #45A29E;
+    width: 100%;
+}
+
+.knowledge {
+    border-top: 6px solid #45A29E;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+@media only screen and (max-width: 640px){
+    .knowledge {
+        border-top: 6px solid #45A29E;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+.knowledge h3{
+    white-space: nowrap;
+    margin-bottom: 0;
+    
+}
+.knowledgeList {
+    display: flex;
+    flex-direction: row;
+}
+.knowledgeList li{
+    white-space: nowrap;
+}
+
+.workExperience {
+    border-top: 6px solid #45A29E;
+    width: 100%;
+}
+

@@ -13,7 +13,7 @@ function Header() {
           <div className="dropdown-content">
             <Link to="/">HOME</Link>
             <Link to="/games">GAMES</Link>
-            <Link to="/">ABOUT</Link>
+            <Link to="/about">ABOUT</Link>
             <Link to="/">CONTACT ME</Link>
           </div>
         </div>
@@ -22,7 +22,7 @@ function Header() {
           <nav className="headerOptions">
             <Link to="/">HOME</Link>
             <Link to="/games">GAMES</Link>
-            <Link to="/">ABOUT</Link>
+            <Link to="/about">ABOUT</Link>
             <Link to="/">CONTACT ME</Link>
           </nav>
         </>

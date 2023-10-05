@@ -10,6 +10,9 @@
     font-style: italic;
     font-weight: bold;
     color: #45A29E;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
 }
 
 .project h4 {
@@ -28,4 +31,3 @@
     width: clamp(20%, 70%, 75%);
     height: auto;
 }
-

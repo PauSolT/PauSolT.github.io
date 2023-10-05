@@ -16,6 +16,7 @@
 .game h3 {
     color: #66FCF1;
     font-size: clamp(1.5rem, 3vw, 4rem);
+    
 }
 
 .game h4 {
