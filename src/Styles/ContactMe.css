@@ -1,0 +1,10 @@
+.contactModule {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.contactModule a {
+    color: #C5C6C7;
+
+}
