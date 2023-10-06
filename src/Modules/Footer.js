@@ -1,11 +1,14 @@
 import "../Styles/Footer.css"
+import English from "../languages/english.json"
 
 function Footer(){
+let content = English;
+
     return (
     <footer>
         <div className="footerOptions">
           <div>
-            ABOUT
+            {content["about"]}
           </div>
           <div className='footerSocials'>
             <div>
