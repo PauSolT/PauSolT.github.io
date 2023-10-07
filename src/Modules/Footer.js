@@ -1,14 +1,15 @@
 import "../Styles/Footer.css"
-import English from "../languages/english.json"
+import CheckLanguage from "./CheckLanguage";
+import { Link } from "react-router-dom";
 
 function Footer(){
-let content = English;
+let content = CheckLanguage();;
 
     return (
     <footer>
         <div className="footerOptions">
           <div>
-            {content["about"]}
+          <Link to="/about">{content["about"]}</Link>
           </div>
           <div className='footerSocials'>
             <div>

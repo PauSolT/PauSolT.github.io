@@ -16,6 +16,20 @@ header {
 .headerName {
   flex-grow: 4;
   align-self: self-start;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  max-width: 20%;
+}
+
+.headerLanguage {
+  cursor: pointer;
+}
+
+@media only screen and (max-width: 760px){
+  .headerName {
+    max-width: 35%;
+  }
 }
 
 nav {
@@ -23,6 +37,7 @@ nav {
   flex-direction: row;
   justify-content: space-around;
   flex-grow: 1;
+  max-width: 40%;
 
 }
 

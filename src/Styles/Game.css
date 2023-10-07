@@ -1,7 +1,6 @@
 .game {
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
     max-width: 100%;
     padding-left: 7%;
     padding-right: 7%;

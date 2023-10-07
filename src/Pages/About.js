@@ -1,9 +1,10 @@
 import "../Styles/About.css";
 import ContactMe from "../Modules/ContactMe";
-import English from "../languages/english.json";
+import CheckLanguage from "../Modules/CheckLanguage";
+
 
 function About() {
-  let content = English;
+  let content = CheckLanguage();
   return (
     <div className="aboutPage">
       <h1>PAU SOLÉ TORRALBA</h1>

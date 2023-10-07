@@ -1,11 +1,11 @@
 import Project from "../Modules/Project";
 import "../Styles/Home.css";
-import English from "../languages/english.json"
+import CheckLanguage from "../Modules/CheckLanguage";
 import SlimeDefenseImage from "../Images/SlimeDefense.png"
 
 function Home() {
 
-  let content = English;
+  let content = CheckLanguage();
 
   return (
     <div className="bodyDiv">

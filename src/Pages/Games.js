@@ -1,11 +1,11 @@
 import Game from "../Modules/Game";
 import "../Styles/Games.css"
-import English from "../languages/english.json"
+import CheckLanguage from "../Modules/CheckLanguage";
 import SlimeDefenseImage from "../Images/SlimeDefense.png"
 import StarTapsImage from "../Images/StarTaps.jpg"
 
 function Games() {
-  let content = English;
+  let content = CheckLanguage();
   return (
       <div className="GamesList">
         <Game

@@ -1,8 +1,8 @@
 import "../Styles/ContactMe.css";
-import English from "../languages/english.json"
+import CheckLanguage from "./CheckLanguage";
 
 function ContactMe() {
-  let content = English;
+  let content = CheckLanguage();
   return (
     <div className="contactModule">
       <h2>{content["contactMe"]}</h2>
