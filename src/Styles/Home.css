@@ -6,6 +6,11 @@
   align-items: center;
 }
 
+.bodyDiv p {
+  font-size: clamp(1rem, 2vw, 2rem);
+
+}
+
 .introductionTitle {
   display: flex;
   justify-content: center;
@@ -19,3 +24,4 @@
 h3 {
   font-size: clamp(1rem, 2.5vw, 3rem);
 }
+

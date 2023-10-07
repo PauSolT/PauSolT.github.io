@@ -9,8 +9,10 @@
 }
 
 .game .responsiveImage {
-    width: clamp(50%, 80%, 90%);
+    width: clamp(50%, 90%, 100%);
     height: auto;
+    max-width: 100%;
+    max-height: 50%;
 }
 
 .game h3 {
@@ -27,6 +29,8 @@
     color: #C5C6C7;
     text-align: justify;
     text-justify: inter-word;
+    font-size: clamp(1rem, 2vw, 2rem);
+
 }
 
 .gameHeader {

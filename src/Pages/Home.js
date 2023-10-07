@@ -1,6 +1,7 @@
 import Project from "../Modules/Project";
 import "../Styles/Home.css";
 import English from "../languages/english.json"
+import SlimeDefenseImage from "../Images/SlimeDefense.png"
 
 function Home() {
 
@@ -25,19 +26,19 @@ function Home() {
         <Project
           title="1. BEKKUS"
           genre={content["bekkusGenre"]}
-          urlImage="https://cdn.pixabay.com/photo/2021/09/07/07/11/game-console-6603120_1280.jpg"
+          urlImage="https://img.itch.zone/aW1hZ2UvNjI3NjA4LzM0MDA0NzkucG5n/347x500/ZCjbFA.png"
           description={content["bekkusDescription"]}
         />
         <Project
           title="2. BILUX"
           genre={content["biluxGenre"]}
-          urlImage="https://cdn.pixabay.com/photo/2021/09/07/07/11/game-console-6603120_1280.jpg"
+          urlImage="https://img.itch.zone/aW1hZ2UvNDIxNDk3LzIxMDYxMzYucG5n/347x500/r%2FeS0B.png"
           description={content["biluxDescription"]}
         />
         <Project
           title="3. SLIME DEFENSE"
           genre={content["slimeGenre"]}
-          urlImage="https://cdn.pixabay.com/photo/2021/09/07/07/11/game-console-6603120_1280.jpg"
+          urlImage={SlimeDefenseImage}
           description={content["slimeDescription"]}
         />
       </div>
