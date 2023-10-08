@@ -3,7 +3,6 @@ import { Link } from "react-router-dom";
 import CheckMobileScreen from "../Utils/CheckMobileScreen";
 import CheckLanguage from "./CheckLanguage";
 
-
 function Header() {
   let isMobile = CheckMobileScreen();
   let content = CheckLanguage();
@@ -11,13 +10,22 @@ function Header() {
   return (
     <header>
       <div className="headerName">
-        <div className="headerLanguage" onClick={() => ChangeLanguageToCatalan()}>
+        <div
+          className="headerLanguage"
+          onClick={() => ChangeLanguageToCatalan()}
+        >
           CAT
         </div>
-        <div className="headerLanguage"onClick={() => ChangeLanguageToSpanish()}>
+        <div
+          className="headerLanguage"
+          onClick={() => ChangeLanguageToSpanish()}
+        >
           ESP
         </div>
-        <div className="headerLanguage"onClick={ () => ChangeLanguageToEnglish()}>
+        <div
+          className="headerLanguage"
+          onClick={() => ChangeLanguageToEnglish()}
+        >
           ENG
         </div>
       </div>
@@ -27,8 +35,34 @@ function Header() {
           <div className="dropdown-content">
             <Link to="/">{content["home"]}</Link>
             <Link to="/games">{content["games"]}</Link>
-            <Link to="/about">{content["about"]}</Link>
-            <Link to="/about">{content["contactMe"]}</Link>
+            <Link
+              to="/about"
+              onClick={() => {
+                setTimeout(
+                  window.scrollTo({
+                    top: 0,
+                    behavior: "smooth",
+                  }),
+                  500
+                );
+              }}
+            >
+              {content["about"]}
+            </Link>
+            <Link
+              to="/about"
+              onClick={() => {
+                setTimeout(
+                  window.scrollTo({
+                    top: document.documentElement.scrollHeight,
+                    behavior: "smooth",
+                  }),
+                  500
+                );
+              }}
+            >
+              {content["contactMe"]}
+            </Link>
           </div>
         </div>
       ) : (
@@ -36,8 +70,34 @@ function Header() {
           <nav className="headerOptions">
             <Link to="/">{content["home"]}</Link>
             <Link to="/games">{content["games"]}</Link>
-            <Link to="/about">{content["about"]}</Link>
-            <Link to="/about"><a href="#down">{content["contactMe"]}</a></Link>
+            <Link
+              to="/about"
+              onClick={() => {
+                setTimeout(
+                  window.scrollTo({
+                    top: 0,
+                    behavior: "smooth",
+                  }),
+                  500
+                );
+              }}
+            >
+              {content["about"]}
+            </Link>
+            <Link
+              to="/about"
+              onClick={() => {
+                setTimeout(
+                  window.scrollTo({
+                    top: document.documentElement.scrollHeight,
+                    behavior: "smooth",
+                  }),
+                  500
+                );
+              }}
+            >
+              {content["contactMe"]}
+            </Link>
           </nav>
         </>
       )}
@@ -45,22 +105,28 @@ function Header() {
   );
 }
 
-function ChangeLanguageToEnglish()
-{
-  localStorage.setItem('lang', 'eng');
-  window.location.reload();
+function ChangeLanguageToEnglish() {
+  localStorage.setItem("lang", "eng");
+  window.scrollTo({
+    top: 0,
+  });
+  window.location.reload(true);
 }
 
-function ChangeLanguageToSpanish()
-{
-  localStorage.setItem('lang', 'esp');
-  window.location.reload();
+function ChangeLanguageToSpanish() {
+  localStorage.setItem("lang", "esp");
+  window.scrollTo({
+    top: 0,
+  });
+  window.location.reload(true);
 }
 
-function ChangeLanguageToCatalan()
-{
-  localStorage.setItem('lang', 'cat');
-  window.location.reload();
+function ChangeLanguageToCatalan() {
+  localStorage.setItem("lang", "cat");
+  window.scrollTo({
+    top: 0,
+  });
+  window.location.reload(true);
 }
 
 export default Header;
