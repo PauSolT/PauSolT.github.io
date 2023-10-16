@@ -9,7 +9,7 @@ function About() {
   return (
     <div className="aboutPage">
       <div className="aboutTitle">
-        <h1>PAU SOLÉ TORRALBA</h1>
+        <h1>PAU SOLÉ<br></br> TORRALBA</h1>
         <img src={Pau} alt="pau" className="pauImage"></img>
       </div>
       <h2>{content["grade"]}</h2>

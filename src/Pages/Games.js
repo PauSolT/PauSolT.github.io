@@ -26,7 +26,7 @@ function Games() {
           genre="MOBILE CASUAL"
           urlImage={SlimeDefenseImage}
           description={content["slimeGame"]}
-          urlSite="https://drhut94.itch.io/bilux"
+          urlSite="https://pausol.itch.io/slime-defense"
         />
         <Game
           title="4. STAR TAPS"
