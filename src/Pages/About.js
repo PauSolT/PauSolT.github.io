@@ -1,13 +1,17 @@
 import "../Styles/About.css";
 import ContactMe from "../Modules/ContactMe";
 import CheckLanguage from "../Modules/CheckLanguage";
+import Pau from '../Images/paucv1.jpg'
 
 
 function About() {
   let content = CheckLanguage();
   return (
     <div className="aboutPage">
-      <h1>PAU SOLÉ TORRALBA</h1>
+      <div className="aboutTitle">
+        <h1>PAU SOLÉ TORRALBA</h1>
+        <img src={Pau} alt="pau" className="pauImage"></img>
+      </div>
       <h2>{content["grade"]}</h2>
       <h4>{content["description"]}</h4>
 

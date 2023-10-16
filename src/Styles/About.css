@@ -43,6 +43,18 @@
     font-size: clamp(1rem, 2vw, 2rem);
 }
 
+.aboutTitle {
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.aboutTitle img {
+    width: clamp(20%, 25%, 30%);
+    height: clamp(20%, 25%, 30%);
+    font-size: clamp(2.5rem, 7vw, 6rem);
+    margin-block-start: 0.67em;
+}
+
 
 .formation {
     border-top: 6px solid #45A29E;
