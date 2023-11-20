@@ -26,7 +26,7 @@ function Games() {
           genre="MOBILE CASUAL"
           urlImage={SlimeDefenseImage}
           description={content["slimeGame"]}
-          urlSite="https://pausol.itch.io/slime-defense"
+          urlSite="https://play.google.com/store/apps/details?id=com.SClickityGames.com.unity"
         />
         <Game
           title="4. STAR TAPS"
