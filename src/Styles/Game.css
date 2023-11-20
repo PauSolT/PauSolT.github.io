@@ -17,13 +17,14 @@
 .game h3 {
     color: #66FCF1;
     font-size: clamp(1.5rem, 3vw, 4rem);
-    
+
 }
 
 .game h4 {
     color: #45A29E;
     margin-bottom: 0px;
 }
+
 .game p {
     color: #C5C6C7;
     text-align: justify;
@@ -49,4 +50,11 @@
     background-color: #1F2833;
     padding-right: 5px;
     padding-left: 5px;
+    transition: color 0.3s ease-in-out, background-color 0.3s ease-in-out;
+
+}
+
+.gameHeader a:hover {
+    background-color: #45A29E;
+    color: #1F2833;
 }
