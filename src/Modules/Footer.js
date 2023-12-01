@@ -8,7 +8,7 @@ function Footer() {
   return (
     <footer>
       <div className="footerOptions">
-        <div>
+        <div className="footerAboutMe">
           <Link
             to="/about"
             onClick={() => {

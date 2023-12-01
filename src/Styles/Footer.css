@@ -12,6 +12,11 @@
     transition: color 0.2s ease-in-out, background-color 0.2s ease-in-out;
 }
 
+.footerAboutMe {
+    width: 100px;
+
+}
+
 .footerOptions a:hover {
     background-color: #C5C6C7;
     color: #1F2833;
