@@ -1,15 +1,16 @@
 import "../Styles/About.css";
 import ContactMe from "../Modules/ContactMe";
 import CheckLanguage from "../Modules/CheckLanguage";
-import Pau from '../Images/paucv1.jpg'
-
+import Pau from "../Images/paucv1.jpg";
 
 function About() {
   let content = CheckLanguage();
   return (
     <div className="aboutPage">
       <div className="aboutTitle">
-        <h1>PAU SOLÉ<br></br> TORRALBA</h1>
+        <h1>
+          PAU SOLÉ<br></br> TORRALBA
+        </h1>
         <img src={Pau} alt="pau" className="pauImage"></img>
       </div>
       <h2>{content["grade"]}</h2>
@@ -17,10 +18,16 @@ function About() {
 
       <div className="formation">
         <h3>{content["formation"]}</h3>
-        <h4>
-        {content["form1"]}
-        </h4>
+
+        <h4>{content["form3"]}</h4>
+        <p>{content["form3Date"]}</p>
+
+        <h4>{content["form4"]}</h4>
+        <p>{content["form4Date"]}</p>
+
+        <h4>{content["form1"]}</h4>
         <p>{content["form1Date"]}</p>
+
         <h4>{content["form2"]}</h4>
         <p>{content["form2Date"]}</p>
       </div>
@@ -55,17 +62,11 @@ function About() {
         <h3>{content["work"]}</h3>
         <h4>FULL STACK DEVELOPER</h4>
         <h5>{content["work1Date"]}</h5>
-        <p>
-        {content["work1Description"]}
-        </p>
+        <p>{content["work1Description"]}</p>
         <h4>{content["work2"]}</h4>
         <h5>{content["work2Date"]}</h5>
-        <p>
-        {content["work2Description1"]}
-        </p>
-        <p>
-        {content["work2Description2"]}
-        </p>
+        <p>{content["work2Description1"]}</p>
+        <p>{content["work2Description2"]}</p>
       </div>
       <ContactMe />
     </div>

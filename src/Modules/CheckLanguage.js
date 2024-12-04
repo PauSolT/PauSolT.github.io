@@ -11,6 +11,7 @@ function CheckLanguage() {
     case "cat":
       content = Catalan;
       break;
+    case "eng":
     default:
       content = English;
       break;
